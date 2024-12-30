@@ -818,6 +818,20 @@ ul.social_icon li a:hover {
      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
      height: 90; /* Reduce the height on hover */
  }
+
+ @media (max-width: 768px) {
+     .col-md-3 {
+         flex: 0 0 50%; /* Change to half width on smaller screens */
+         max-width: 50%;
+     }
+ }
+ 
+ @media (max-width: 576px) {
+     .col-md-3 {
+         flex: 0 0 100%; /* Full width on extra small screens */
+         max-width: 100%;
+     }
+ }
  
  
 
